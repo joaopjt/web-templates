@@ -7,7 +7,32 @@
 }
 
 .s-webdoor__container {
+  align-items: center;
   display: flex;
   max-width: 1440px;
+  justify-content: space-between;
   width: 100%;
+}
+
+.s-webdoor__text {
+  color: $white-color;
+  display: block;
+
+  h1, p {
+    display: block;
+  }
+
+  h1 {
+    font-size: 66px;
+  }
+
+  p {
+    font-size: 29px;
+  }
+}
+
+.s-webdoor__img {
+  align-self: center;
+  display: flex;
+  justify-content: flex-end;
 }
