@@ -1,0 +1,14 @@
+.c-menu {
+  align-items: center;
+  background: $corn;
+  display: flex;
+  height: 122px;
+  justify-content: center;
+  width: 100%;
+}
+
+.c-menu__content {
+  display: inline-flex;
+  max-width: 1440px;
+  width: 100%;
+}
