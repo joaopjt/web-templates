@@ -8,7 +8,53 @@
 }
 
 .c-menu__content {
-  display: inline-flex;
+  display: flex;
   max-width: 1440px;
+  justify-content: space-between;
   width: 100%;
+}
+
+.c-menu__logo {
+  display: inline-block;
+  width: 212px;
+}
+
+.c-menu__items {
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.c-menu__item {
+  font-family: $font-family-default;
+  color: $white-color;
+  cursor: pointer;
+  margin: 0 20px;
+}
+
+.c-menu__search {
+  display: inline-block;
+  position: relative;
+}
+
+.c-menu__search-input {
+  border: 0;
+  background: $amber;
+  box-sizing: border-box;
+  color: $white-color;
+  font-family: $font-family-default;
+  padding: 10px;
+  position: relative;
+  height: 52px;
+  width: 100%;
+}
+
+.c-menu__search-button {
+  background: $robin-eggs-blue;
+  border: 0;
+  height: 52px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 52px;
 }

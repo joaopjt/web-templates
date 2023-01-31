@@ -1,0 +1,13 @@
+.s-webdoor {
+  background: $amber;
+  display: flex;
+  height: calc(100vh - 122px);
+  justify-content: center;
+  width: 100%;
+}
+
+.s-webdoor__container {
+  display: flex;
+  max-width: 1440px;
+  width: 100%;
+}
